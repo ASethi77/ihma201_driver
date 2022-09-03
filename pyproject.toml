@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "l6470-spi-driver"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "l6470_spi_driver"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+spidev = "^3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
